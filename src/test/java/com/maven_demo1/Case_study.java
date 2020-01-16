@@ -65,7 +65,7 @@ public class Case_study {
 	WebElement month=driver.findElement(By.xpath("//select[@data-handler='selectMonth']"));
 	Select s2 = new Select(month);
 	
-	s2.selectByVisibleText("Feb");
+	s2.selectByVisibleText("Mar");
 	Select s3 = new Select(driver.findElement(By.xpath("//select[@data-handler='selectYear']")));
 	s3.selectByVisibleText("1996");
 	driver.findElement(By.xpath("//a[contains(.,'29')]")).click();
