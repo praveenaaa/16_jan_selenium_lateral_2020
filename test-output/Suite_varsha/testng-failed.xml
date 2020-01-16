@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_varsha]">
+  <test name="Test_chandan">
+    <classes>
+      <class name="com.maven_demo1.Hello_selenium"/>
+      <class name="com.maven_demo1.Testng_demo1"/>
+      <class name="com.maven_demo1.Testng_demo2"/>
+    </classes>
+  </test> <!-- Test_chandan -->
+  <test name="Test_chandan(failed)">
+    <classes>
+      <class name="com.maven_demo1.Testng_demo1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.maven_demo1.Testng_demo1 -->
+      <class name="com.maven_demo1.Testng_demo2">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="beforeM"/>
+          <include name="close_browser"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- com.maven_demo1.Testng_demo2 -->
+      <class name="com.maven_demo1.Hello_selenium">
+        <methods>
+          <include name="rediff_login"/>
+        </methods>
+      </class> <!-- com.maven_demo1.Hello_selenium -->
+    </classes>
+  </test> <!-- Test_chandan(failed) -->
+</suite> <!-- Failed suite [Suite_varsha] -->
